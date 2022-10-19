@@ -7,7 +7,7 @@ import Footer from "./pages/FooterHomePage/Footer";
 const AppPage = (props) => {
   return (
     <div>
-      {/* <Home /> */}
+      <Home />
       <WaveBorder lowerColor=" #253237" />
       <Sites />
       <Footer />
