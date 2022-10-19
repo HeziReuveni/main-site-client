@@ -99,7 +99,7 @@ const Footer = () => {
                       alignItems: "center",
                     }}
                   >
-                    Hezireuveny93@gmail.com
+                    Hezi0303@gmail.com
                   </div>
                 </Zoom>
               )}
@@ -108,16 +108,18 @@ const Footer = () => {
               <ButtonIcons onClick={handleMessageMail}>
                 <SiGmail color="rgb(220, 60, 60)" fontSize="1.5rem" />
               </ButtonIcons>
-              <a href="https://api.whatsapp.com/send?phone=972507727731">
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=972507727731"
+              >
                 <ButtonIcons>
                   <ImWhatsapp color="rgb(97, 227, 95)" fontSize="1.5rem" />
                 </ButtonIcons>
               </a>
-              <a href="https://www.facebook.com/profile.php?id=100001644519835">
-                <ButtonIcons>
-                  <FaFacebook color="#3c7dff" fontSize="1.5rem" />
-                </ButtonIcons>
-              </a>
+
+              <ButtonIcons>
+                <FaFacebook color="#3c7dff" fontSize="1.5rem" />
+              </ButtonIcons>
             </ContainerIcons>
           </RightBlockFooter>
         </Zoom>
