@@ -20,7 +20,7 @@ export const TitleSites = styled.h1`
 `;
 
 export const ContainerButtons = styled.div`
-  height: 70vh;
+  min-height: 70vh;
   width: 80%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -28,6 +28,7 @@ export const ContainerButtons = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  padding: 1rem;
   margin: 0 auto;
   @media screen and (max-width: 768px) {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));

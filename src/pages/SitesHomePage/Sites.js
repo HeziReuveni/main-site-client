@@ -41,7 +41,7 @@ const Sites = () => {
         className="Sites"
         style={{
           color: "aliceblue",
-          height: "130vh",
+          minHeight: "130vh",
           width: "100%",
           background: "#253237",
           backgroundImage: url(true),
