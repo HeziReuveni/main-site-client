@@ -114,7 +114,7 @@ const Cleanliness = () => {
               <ButtonDetails onClick={handleClickPremiumBox}>
                 <TiInfoLarge />
               </ButtonDetails>
-              <TitlePrice> ₪ 599 פרימיום</TitlePrice>
+              <TitlePrice> ₪ 2999 פרימיום</TitlePrice>
               {infoPremiumSite ? (
                 <CustomIframe src={"https://clean3-quick-site.vercel.app/"} />
               ) : (
@@ -179,7 +179,7 @@ const Cleanliness = () => {
                 <TiInfoLarge />
               </ButtonDetails>
 
-              <TitlePrice> ₪ 499 סטנדרט</TitlePrice>
+              <TitlePrice> ₪ 2499 סטנדרט</TitlePrice>
               {infoStandardSite ? (
                 <CustomIframe src="https://clean2-quick-site.vercel.app/" />
               ) : (
@@ -243,7 +243,7 @@ const Cleanliness = () => {
                 <TiInfoLarge />
               </ButtonDetails>
 
-              <TitlePrice> ₪ 399 בסיסי</TitlePrice>
+              <TitlePrice> ₪ 1999 בסיסי</TitlePrice>
               {infoBasicSite ? (
                 <CustomIframe src="https://clean1-quick-site.vercel.app/" />
               ) : (

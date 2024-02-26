@@ -47,7 +47,7 @@ const CleanlinessToMobile = () => {
                     fontSize: "1.2rem",
                   }}
                 >
-                  ₪ 599
+                  ₪ 2999
                 </p>
                 פרימיום
               </TitlePrice>
@@ -103,7 +103,7 @@ const CleanlinessToMobile = () => {
                     fontSize: "1.2rem",
                   }}
                 >
-                  ₪ 499
+                  ₪ 2499
                 </p>
                 סטנדרט
               </TitlePrice>
@@ -156,7 +156,7 @@ const CleanlinessToMobile = () => {
                     fontSize: "1.2rem",
                   }}
                 >
-                  ₪ 399
+                  ₪ 1999
                 </p>
                 בסיסי
               </TitlePrice>

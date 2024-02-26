@@ -168,6 +168,23 @@ const Footer = () => {
           </RightBlockFooter>
         </Zoom>
       </ContainerFooter>
+      <div
+      style={{
+        height:"10vh",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+        color:"whitesmoke",
+        fontSize:"1,1rem",
+        fontFamily:"sans-serif",
+        backgroundColor:"#253237",
+        borderTop:"1px solid rgb(103, 103, 103, 0.4)",
+        letterSpacing:"0.5px"
+      }}
+      >
+
+        בניה ופיתוח אתרים - Lampi
+      </div>
     </div>
   );
 };
